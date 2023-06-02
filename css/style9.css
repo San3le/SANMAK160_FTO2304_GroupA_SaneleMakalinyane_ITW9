@@ -1,0 +1,85 @@
+/*top of the page, navigation bar*/
+nav {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+
+  background-color: rgb(184, 174, 162);
+  margin: 10px;
+  font-style: normal;
+  color: rgb(184, 174, 162);
+  position: sticky;
+  top: 20px;
+}
+
+
+#about {
+  background-color:  rgb(184, 174, 162);
+  padding: 0.5rem;
+  border-radius: 6px;
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  padding: 0.5rem;
+}
+
+#to-top-menu {
+  position: fixed;
+  bottom: 80px;
+  right: 80px;
+  display: inline-flex;
+  align-items: right;
+  justify-content: center;
+}
+
+/*main content of the Resume*/
+
+body {
+  background-color: rgb(84, 84, 123);
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2,h4 {
+  color: whitesmoke;
+}
+
+p{
+  color: whitesmoke;
+}
+
+li,
+ul {
+  padding: 0.5rem;
+  color: whitesmoke;
+}
+
+section {
+  border-radius: 15px;
+  margin: 20px;
+  padding: 5px;
+  background-color: rgb(128, 128, 167);
+}
+
+/*footer and forms*/
+
+footer {
+  background-color: rgb(128, 128, 167);
+  border-radius: 15px;
+  margin: 20px;
+  padding: 5px;
+}
+
+* {
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

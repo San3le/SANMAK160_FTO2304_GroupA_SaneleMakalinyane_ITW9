@@ -1,26 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/style9.css">
     <title> Sanele Makalinyane </title>
 </head>
 
 <body>
-    <header>
-        <nav>
 
-        </nav>
+    <!--Nav bar, banner section-->
+
+    <nav id="top" class="nav bar">
+
+        <a href="About">About</a> <br>
+        <a href="Education">Education</a> <br>
+        <a href="Experience">Experience</a> <br>
+        <a href="Skills">Skills</a> <br>
+        <a href="Contacts">Contacts</a> <br>
+
+    </nav>
+
+    <header>
+
+        <div>
+
+            <img src="./images/IMG_2208.jpeg" width="300px" height="300px">
+
+        </div>
+
+        <br>
+
+        <a class="to-top-menu" id="to-top-menu" href="#top">
+
+            <img src="./images/angle-circle-up.svg" alt="to-top-menu" width="30px" height="30px">
+
+        </a>
+
     </header>
 
-    <mai>
+    <!--main content of the Resume-->
+
+    <main>
+
+        <section>
+            <h2 id="About">About</h2>
+
+            <p> I am Sanele Makalinyane born in the Eastern Cape bread in Western Cape. <br>
+                Always eager to learn and embracing challenges.
+            </p>
+        </section>
+
+        <br>
+
+        <section>
+
+            <h2 id="Education">Education</h2>
+            <ul>
+                <li>Matric</li>
+                <li>Software Development at <a href="https://www.codespace.co.za"> Code Space</a></li>
+            </ul>
+
+        </section>
+
+        <br>
+
+        <section>
+
+            <h2 id="Experience">Experience</h2>
+            <p3>
+                <ul>
+                    <li>Lifeguard</li>
+                </ul>
+                <h4>Job Description</h4>
+                <ul>
+                    <li>Administer first Aid</li>
+                    <li>Setting up Bathing area</li>
+                    <li>Rendering service</li>
+                </ul>
+            </p3>
+
+        </section>
+
+        <br>
+
+        <section>
+
+            <h2 id="Skills">Skills</h2>
+            <p4>
+                <ul>
+                    <li>I am very good problem solver</li>
+                    <li>I am a good Swimmer</li>
+                </ul>
+            </p4>
+
+        </section>
 
     </main>
 
+    <br>
+
     <footer>
-        
+
+        <h2 id="Contacts">Contacts</h2>
+
+        <p>Email <br>
+            <a href="makalinyane.s@gmail.com">makalinyane.s@gmail.com</a>
+        </p>
+        <p>Phone <br>
+            060 836 3036
+        </p>
+
+        <br>
+        <!-- form section-->
+
+        <form action="https://formsubmit.co/makalinyane.s@gmail.com" method="post">
+
+            <label for="Email">Email:</label>
+            <select id="Email">
+                <option value=""></option>
+                <option value="Enquiries">Enquiries</option>
+                <option value="Supporting Documents">Supporting Documents</option>
+            </select>
+            <input type="Email" name="Email">
+
+            <br>
+            <br>
+
+            <label for="Message">Message:</label>
+            <textarea id="Message" name="Message" col="4" rows="8">Message...</textarea>
+
+            <input class="Submit" type="Submit" value="Submit">
+
+        </form><br>
+
     </footer>
-    
+
 </body>
+
 </html>
