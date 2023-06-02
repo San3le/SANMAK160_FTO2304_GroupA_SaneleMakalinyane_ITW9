@@ -44,7 +44,13 @@ body {
 main {
     display: grid;
 
+}a:hover {
+    background-color:  rgb(184, 174, 162);
+    color: rgb(184, 174, 162);
+    margin: 20xp;
 }
+
+
 
 h2,h4 {
   color: whitesmoke;
@@ -87,8 +93,3 @@ img {
   max-width: 100%;
 }
 
-a:hover {
-    background-color:  rgb(184, 174, 162);
-    color: white;
-    margin: 20xp;
-}
